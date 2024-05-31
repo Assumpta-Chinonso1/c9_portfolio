@@ -10,6 +10,26 @@ File Description:Main CSS file of the template */
 ----------------------------------------------------------------------------- */
 body {
   font-family: "Open Sans", sans-serif;
+    background-image: url('/images/banner.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+  
+      font-size: 15px;
+     line-height: 1.5;
+      color: #e9dbdb;
+      background-color: #efe9e9;
+      position: relative;
+      
+    
+  
+  /* Adjustments for specific sections */
+  .section {
+    background-color: rgba(32, 20, 20, 0.9); /* Background color for sections */
+    padding: 50px 0; 
+  }
+  
+  
 }
 .site-name {
   font-family: "Raleway", sans-serif;
@@ -17,27 +37,25 @@ body {
 html,
 body {
   height: 100%;
+ 
 }
-body {
-  font-size: 15px;
-  line-height: 1.5;
-  color: #333333;
-  background-color: #ffffff;
-  position: relative;
-}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  color: #333333;
+  color: pink;
 }
 h1 {
   font-size: 38px;
   font-weight: 700;
   margin-bottom: 20px;
 }
+  .text-center{
+    color: white;
+  } 
 h2 {
   font-size: 28px;
   margin-bottom: 15px;
@@ -61,16 +79,16 @@ h1 span,
 h2 span,
 h3 span,
 h4 span {
-  color: pink;
+  color :pink;
 }
 .text-colored {
-  color: red;
+  color: rgb(234, 227, 227);
 }
 a {
   color: red;
 }
 a:hover {
-  color: pink;
+  color: rgb(136, 30, 48);
 }
 a:focus,
 a:active {
@@ -82,19 +100,75 @@ a:active {
 img {
   display: block;
   max-width: 100%;
-  height: auto;
+  height: 100%;
+}
+
+
+.btn-primary {
+  background-color: rgba(230, 209, 209, 0.55) ; /* Custom primary color */
+  color: white ;
 }
 
 #logo{
   width: 40px;
   border-radius: 10px;
+  
 }
 
+
  #susu{
-  width: 80vh;
-  border-radius: 300px;
-  padding-left: 10px;
+  width: 60vh;
+  border-radius: 250px;
+   margin-left: 20%;
+   margin-bottom: 50%;
  }
+
+ body {
+  font-family: Arial, sans-serif;
+}
+
+
+.card img {
+  max-height: 200px;
+  object-fit: cover;
+  transition: transform 0.5s, box-shadow 0.3s;
+}
+
+.card-title{
+  color:rgba(229, 226, 226, 0.55) ;
+}
+
+.card img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px  rgba(165, 81, 81, 0.9);
+}
+
+
+h2, h3 {
+  margin-top: 20px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid rgb(220, 215, 215);
+  padding: 5px;
+}
+
+main {
+  background-image: url(/images/banner.jpg)  50% 0px no-repeat; /* Adjust the opacity (last value) as needed */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
 
 .list-unstyled li {
   padding: 5px 0;
@@ -127,21 +201,20 @@ blockquote {
 /* Layout
 ----------------------------------------------------------------------------- */
 .header {
-  color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.1);
-  padding: 10px 0;
+  color: #0c0808;
+  padding:10px 0;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .banner {
   width: 100%;
   height: 100%;
   min-height: 100%;
   position: relative;
-  color: #fff;
+  color: rgba(251, 250, 250, 0.9);
 }
 .banner-image {
   vertical-align: middle;
@@ -154,7 +227,7 @@ blockquote {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.55);
+  background-color: rgba(59, 46, 46, 0.55);
   content: "";
 }
 .banner-caption {
@@ -164,24 +237,26 @@ blockquote {
   z-index: 2;
 }
 .subfooter {
-  background-color: #fafafa;
+  background-color:rgba(32, 20, 20, 0.9) ;
   border-top: 1px solid #f3f3f3;
   border-bottom: 1px solid #f3f3f3;
   padding: 40px 0;
+  border: none;
 }
 .section {
-  background-color: #ffffff;
+  background-color: #342626;
   padding: 80px 0;
 }
 
 /* Backgrounds
 ----------------------------------------------------------------------------- */
 .default-bg {
-  background-color: #222222;
+  background-color: rgba(32, 20, 20, 0.9);
   color: #ffffff;
 }
 .default-bg.blue {
-  background-color: red;
+  
+  background-image: url(/images/banner.jpg);
 }
 .translucent-bg {
   color: #ffffff;
@@ -235,7 +310,7 @@ blockquote {
   z-index: 2;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(32, 20, 20, 0.9);
 }
 .translucent-bg.red:after {
   background-color: rgb(25, 3, 3);
@@ -248,7 +323,7 @@ blockquote {
   background: url("../images/bg-image-1.jpg") 50% 0px no-repeat;
 }
 .bg-image-2 {
-  background: url("../images/bg-image-2.jpg") 50% 0px no-repeat;
+  background: url("../images/banner.jpg") 50% 0px no-repeat;
 }
 
 /* Misc
@@ -275,12 +350,12 @@ blockquote {
   }
 }
 .space {
-  padding: 20px 0;
+  padding: 40px;
 }
-.pr-10 {
+.pr-4 {
   padding-right: 10px;
 }
-.pl-10 {
+.pl-4 {
   padding-left: 10px;
 }
 .pb-clear {
@@ -295,7 +370,7 @@ blockquote {
 .banner-caption h4,
 .banner-caption h5,
 .banner-caption h6 {
-  color: #ffffff;
+  color: #f8f2f2;
 }
 .banner-caption h1 {
   font-size: 60px;
@@ -310,7 +385,7 @@ blockquote {
 ---------------------------------- */
 .btn {
   padding: 8px 15px;
-  font-size: 14px;
+  font-size: 10px;
   line-height: 1.42857143;
   min-width: 160px;
   text-align: center;
@@ -328,7 +403,7 @@ blockquote {
 }
 .btn-default:hover {
   color: #ffffff;
-  background-color: pink;
+  background-color: rgb(163, 39, 39);
   border-color: pink;
 }
 
@@ -574,7 +649,7 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 .site-name a {
-  color: #ffffff;
+  color: #ffff;
 }
 .site-name a:hover {
   text-decoration: none;
@@ -602,7 +677,7 @@ textarea {
   font-size: 36px;
 }
 .social-links li a {
-  color: #333333;
+  color: #d65959;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -612,27 +687,19 @@ textarea {
 .social-links li.twitter a:hover {
   color: red;
 }
-.social-links li.skype a:hover {
-  color: #00aff0;
-}
+
 .social-links li.linkedin a:hover {
   color: #0976b4;
 }
-.social-links li.googleplus a:hover {
-  color: #dd4b39;
-}
+
 .social-links li.youtube a:hover {
   color: #b31217;
 }
-.social-links li.flickr a:hover {
-  color: #ff0084;
-}
+
 .social-links li.facebook a:hover {
-  color: #3b5998;
+  color: #235cd7;
 }
-.social-links li.pinterest a:hover {
-  color: #cb2027;
-}
+
 
 /* Isotope Items
 ---------------------------------- */
