@@ -541,7 +541,7 @@ textarea {
 @media (min-width: 1200px) {
   .modal-lg {
     width: 1140px;
-  }
+  } 
 }
 
 /* Media
@@ -746,6 +746,17 @@ textarea {
     width: 100%;
     display: block;
   }
+  .about-img{
+    width: 200px;
+    margin-top: 35px;
+    margin-bottom: 5px; 
+    margin-left: auto; 
+    margin-right: auto;
+    height: 200px; 
+    }
+
+
+
 }
 
 /* Images Overlay
