@@ -277,7 +277,7 @@ blockquote {
 }
 .default-bg.blue {
   
-  background-image: url(/images/banner.jpg);
+  background-image: url(/images/hello.png);
 }
 .translucent-bg {
   color: #ffffff;
@@ -344,7 +344,7 @@ blockquote {
   background: url("../images/bg-image-1.jpg") 50% 0px no-repeat;
 }
 .bg-image-2 {
-  background: url("../images/banner.jpg") 50% 0px no-repeat;
+  background: url("../images/bg-image-1.jpg") 50% 0px no-repeat;
 }
 
 /* Misc
