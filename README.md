@@ -239,16 +239,19 @@ You can view the live version of this portfolio [here](https://c9-portfolio-beta
 A simple shopping list application to keep track of items to buy.
 - **Live Demo**: [Shopping List](https://calm-quokka-9028e9.netlify.app/)
 - **Technologies**: HTML, CSS, JavaScript
+- **Screenshot**: ![Project1](/images%20-%20Copy/portfolio%201.png)
 
 ### Project 2: Susu's Vanilla Js Todo
 A basic to-do list application using vanilla JavaScript.
 - **Live Demo**: [Susu's Vanilla Js Todo](https://musical-pony-5be72a.netlify.app/)
 - **Technologies**: HTML, CSS, JavaScript
+- **Screenshot**: ![project2](/images%20-%20Copy/portfolio%202.png)
 
 ### Project 3: Multi-step Form
 A multi-step form for collecting user information in stages.
 - **Live Demo**: [Multi-step Form](https://zesty-crisp-491624.netlify.app/)
 - **Technologies**: HTML, CSS, JavaScript
+
 
 ### Project 4: Palindrome Checker
 An application to check if a given string is a palindrome.
